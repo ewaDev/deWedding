@@ -2,12 +2,11 @@
 
   <div class="container">
     <div>
-      <logo />
       <h1>
          <!-- {{ $t('headings.hello') }} -->
       </h1>
-   
-      <h2>Coming soon.....</h2>
+      <h2>Coming Soon...</h2>
+      <h2></h2>
 
     
       
@@ -29,5 +28,13 @@
 </script>
 
 <style>
+.container {
+  margin: 0 auto;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
 
 </style>
