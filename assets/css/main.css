@@ -5,7 +5,8 @@ body {
   }
 
 h1{
-  font-family: 'Amatic SC', cursive;
+  /* font-family: 'Amatic SC', cursive; */
+   font-family: 'Josefin Slab', serif;
 }
 
 h2{

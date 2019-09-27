@@ -1,12 +1,12 @@
 <template>
-
   <div class="container">
     <div>
       <h1>
-         <!-- {{ $t('headings.hello') }} -->
+         {{ $t('headings.comingSoon') }}
       </h1>
-      <h2>Coming Soon...</h2>
-      <h2></h2>
+      
+      
+      
 
     
       
@@ -35,6 +35,7 @@
   justify-content: center;
   align-items: center;
   text-align: center;
+  font-size: 30px;
 }
 
 </style>
