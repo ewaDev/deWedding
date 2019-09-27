@@ -3,6 +3,17 @@ body {
     font-family: Helvetica, sans-serif;
     background-color: #f4f4f4;
   }
+
+h1{
+  font-family: 'Amatic SC', cursive;
+}
+
+h2{
+  font-family: 'Josefin Slab', serif;
+}
+
+
+
   
 .navlink {
     color: #000;

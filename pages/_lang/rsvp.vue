@@ -6,19 +6,7 @@
     <p><label>Your Name: <input name="name" type="text" v-model="name"></label> {{name}}
     <p><label>Your Email: <input name="email" type="text" v-model="email"></label>{{email}}
    
-  </p>
-
-
-
-
-
-
-
-
-
-
-  
-    
+  </p> 
       
         <button>Submit</button>
       </form>
