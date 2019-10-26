@@ -1,7 +1,7 @@
 <template>
-  <div>
-    <!-- <Navbar/> -->
-    <nuxt/>
+  <div class="inheritHeightWidth">
+    <Navbar />
+    <nuxt style="height:90%"/>
   </div>
 </template>
 
@@ -10,7 +10,9 @@ import Navbar from './partials/navbar';
 export default {
   components: {
     Navbar
-  }
+  },
+  modules: ['bootstrap-vue/nuxt']
+
 }
 </script>
 

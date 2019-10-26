@@ -1,6 +1,14 @@
 {
     "headings": {
       "hello": "Hello", 
-      "comingSoon":"Coming Soon..."
+      "comingSoon":"Coming Soon...",
+      "saveOurDate" : "Save Our Date!",
+      "date" : "11/04/2020"
+    }, 
+    "navbar": {
+      "home": "Home", 
+      "aboutUs" : "About Us",
+      "rsvp" : "RSVP", 
+      "venue" : "Venue"
     }
   }

@@ -1,20 +1,33 @@
 <template>
-<header class="header">
-    
-    <nuxt-link to="/" class="logo">Home</nuxt-link>
-     <!-- <input class="menu-btn" type="checkbox" id="menu-btn" />
-     <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label> -->
-    <nav>
-        <ul class="menu">
-            <li><nuxt-link to="/aboutus" class="navlink">AboutUs</nuxt-link></li>
-            <li><nuxt-link to="/rsvp" class="navlink">RSVP</nuxt-link></li>
-            <li><nuxt-link to="/venue" class="navlink">Venue</nuxt-link></li>
-            <li><button @click="changeLanguage('en')">EN</button></li>
-            <li><button @click="changeLanguage('gr')">GR</button></li>
-        </ul>
+
+    <!--codecraft start-->
+    <nav class="navbar navbar-light navbar-expand-lg">
+        <nuxt-link to="/" class="navbar-brand">{{ $t('navbar.home') }}</nuxt-link>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto " style="text-align: center" >
+                <li class="nav-item">
+                  <nuxt-link to="/aboutus" class="nav-link">  {{ $t('navbar.aboutUs') }}</nuxt-link>
+                </li>
+                <li class="nav-item">
+                    <nuxt-link to="/rsvp" class="nav-link">{{ $t('navbar.rsvp') }}</nuxt-link>
+                </li>    
+                <li class="nav-item">
+                  <nuxt-link to="/venue" class="nav-link"> {{ $t('navbar.venue') }}</nuxt-link>
+                </li>
+                <li class="flagbutton" >
+                  <div class="flag-icon flag-icon-gb flag"  @click="changeLanguage('en')"></div>
+                </li>
+                <li class="flagbutton"> 
+                   <div class="flag-icon flag-icon-gr flag" @click="changeLanguage('gr')"></div>
+                </li>
+            </ul>   
+        </div>
     </nav>
-</header>
-    
+  
+  
 </template>
 
 <script>
@@ -27,6 +40,7 @@ export default {
       return this.$t("title");
     }
   },
+  modules : ['bootstrap-vue/nuxt'],
   methods: {
     /**
      * Called when a language button is clicked
@@ -39,7 +53,5 @@ export default {
     
 }
 </script>
-
 <style >
-
 </style>

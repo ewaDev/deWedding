@@ -1,41 +1,36 @@
 <template>
-  <div class="container">
-    <div>
-      <h1>
-         {{ $t('headings.comingSoon') }}
-      </h1>
-      
-      
-      
-
-    
-      
-    
-      </div>
+  <div class="container-me">
+       <img class="image" src="~/assets/images/dancingImage.jpg">
+    <div class="date">
+      <h1 style="font-size: 50px"> {{ $t('headings.saveOurDate') }}</h1>
+      <h1 style="font-size: 50px"> {{ $t('headings.date') }}</h1>
     </div>
+
+  </div>
 </template>
 
 <script>
-// import Logo from '~/components/Logo.vue'
 
-// export default {
-//   components: {
-//     Logo
-//   }
-  
-// }
 
 </script>
 
 <style>
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
+.container-me {
+  overflow: hidden;
+  height: inherit;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+ 
   align-items: center;
   text-align: center;
-  font-size: 30px;
 }
+
+.image  {
+  height: 70% !important;
+ 
+} 
+
+
+
 
 </style>

@@ -2,5 +2,11 @@
     "headings": {
       "hello": "kalimera", 
       "comingSoon":"Έρχομαι σύντομα..."
+    },
+    "navbar": {
+      "home": "Home-gr", 
+      "aboutUs" :"About Us-gr",
+      "rsvp" : "RSVP-gr", 
+      "venue" : "Venue-gr"
     }
   }
