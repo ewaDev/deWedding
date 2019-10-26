@@ -1,7 +1,12 @@
 <template>
-  <div class="container">
-  
-<form name="contact" method="POST" data-netlify="true">
+  <div class="soonContainer">
+  <div>
+      <h1>
+         {{ $t('headings.comingSoon') }}
+      </h1>
+      </div>
+    </div>
+<!-- <form name="contact" method="POST" data-netlify="true">
   <p>
     <p><label>Your Name: <input name="name" type="text" v-model="name"></label> {{name}}
     <p><label>Your Email: <input name="email" type="text" v-model="email"></label>{{email}}
@@ -9,7 +14,7 @@
   </p> 
       
         <button>Submit</button>
-      </form>
+      </form> -->
     </div>
 
 </template>

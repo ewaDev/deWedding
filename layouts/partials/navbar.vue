@@ -6,21 +6,21 @@
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto " style="text-align: center" >
-                <li class="nav-item">
+        <div class="collapse navbar-collapse"  id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto "  style="text-align: center" >
+                <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
                   <nuxt-link to="/aboutus" class="nav-link">  {{ $t('navbar.aboutUs') }}</nuxt-link>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
                     <nuxt-link to="/rsvp" class="nav-link">{{ $t('navbar.rsvp') }}</nuxt-link>
                 </li>    
-                <li class="nav-item">
+                <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
                   <nuxt-link to="/venue" class="nav-link"> {{ $t('navbar.venue') }}</nuxt-link>
                 </li>
-                <li class="flagbutton" >
+                <li class="flagbutton" data-toggle="collapse" data-target=".navbar-collapse.show">
                   <div class="flag-icon flag-icon-gb flag"  @click="changeLanguage('en')"></div>
                 </li>
-                <li class="flagbutton"> 
+                <li class="flagbutton" data-toggle="collapse" data-target=".navbar-collapse.show"> 
                    <div class="flag-icon flag-icon-gr flag" @click="changeLanguage('gr')"></div>
                 </li>
             </ul>   
