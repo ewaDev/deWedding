@@ -29,8 +29,4 @@
   height: 70% !important;
  
 } 
-
-
-
-
 </style>
