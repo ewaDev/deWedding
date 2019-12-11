@@ -27,7 +27,7 @@
           <h1>How to get to Thessaloniki (SKG) by plane</h1>
         </div>
         <div class="row" style="padding-top:15px">
-          <div class="col-md-3"></div>
+          <div class="col-md-3"> </div>
           <div class="col-md-3">
             <h2>From Scotland</h2>
             <p>
@@ -51,6 +51,7 @@
               Ryanair)
             </p>
           </div>
+           <div class="col-md-3"></div>
         </div>
       </div>
     </div>
