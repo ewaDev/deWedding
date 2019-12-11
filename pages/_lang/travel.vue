@@ -21,12 +21,12 @@
       </div>
     </div>
 
-    <div class="jumbotron" style="text-align:center; padding-top:0">
-      <div class="row" style="text-align:center; padding: 15px;">
-        <div class="col-md-12">
+    <div class="jumbotron" style="text-align:center; padding:0px !important;">
+      <div style="text-align:center; padding: 15px;">
+        
           <h1>How to get to Thessaloniki (SKG) by plane</h1>
-        </div>
-        <div class="row" style="padding-top:15px">
+
+        <div class="row" style="padding-top:20px">
           <div class="col-md-3"> </div>
           <div class="col-md-3">
             <h2>From Scotland</h2>
@@ -55,7 +55,7 @@
         </div>
       </div>
     </div>
-    <div style="text-align:center; padding-bottom: 10px;">
+    <div style="text-align:center;">
       <h1 style="text-align:center; ">Where to Stay</h1>
       <p>We think that the best areas to stay in the city are: 
         <ul style="list-style-type:none">
