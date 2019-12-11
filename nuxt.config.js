@@ -66,7 +66,7 @@ export default {
   
   generate: {
     routes: [ '/', '/gr',
-              '/aboutus', '/gr/aboutus',
+              '/travel', '/gr/travel',
               'rsvp','gr/rsvp',
                '/venue', 'gr/venue'
             ]

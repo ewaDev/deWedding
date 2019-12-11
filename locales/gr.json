@@ -5,7 +5,7 @@
     },
     "navbar": {
       "home": "Home-gr", 
-      "aboutUs" :"About Us-gr",
+      "travel" :"Travel",
       "rsvp" : "RSVP-gr", 
       "venue" : "Venue-gr"
     }

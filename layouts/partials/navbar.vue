@@ -9,7 +9,7 @@
         <div class="collapse navbar-collapse"  id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto "  style="text-align: center" >
                 <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
-                  <nuxt-link to="/aboutus" class="nav-link">  {{ $t('navbar.aboutUs') }}</nuxt-link>
+                  <nuxt-link to="/travel" class="nav-link">  {{ $t('navbar.travel') }}</nuxt-link>
                 </li>
                 <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
                     <nuxt-link to="/rsvp" class="nav-link">{{ $t('navbar.rsvp') }}</nuxt-link>
@@ -17,12 +17,12 @@
                 <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
                   <nuxt-link to="/venue" class="nav-link"> {{ $t('navbar.venue') }}</nuxt-link>
                 </li>
-                <li class="flagbutton" data-toggle="collapse" data-target=".navbar-collapse.show">
+                <!-- <li class="flagbutton" data-toggle="collapse" data-target=".navbar-collapse.show">
                   <div class="flag-icon flag-icon-gb flag"  @click="changeLanguage('en')"></div>
                 </li>
                 <li class="flagbutton" data-toggle="collapse" data-target=".navbar-collapse.show"> 
                    <div class="flag-icon flag-icon-gr flag" @click="changeLanguage('gr')"></div>
-                </li>
+                </li> -->
             </ul>   
         </div>
     </nav>

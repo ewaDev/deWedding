@@ -26,8 +26,14 @@
       </div>
     </div>
 
-    <div class="jumbotron" style="background-color: #db9797; text-align:center; padding-top:0">
-      <div class="row" style="background-color: #db9797; text-align:center; padding: 15px;">
+    <div
+      class="jumbotron"
+      style="background-color: #db9797; text-align:center; padding-top:0"
+    >
+      <div
+        class="row"
+        style="background-color: #db9797; text-align:center; padding: 15px;"
+      >
         <div class="col-md-12">
           <h1>Location</h1>
           <p>33 [26 Octovriou], Thessaloniki, 54627</p>
@@ -37,35 +43,14 @@
             venue and a taxi ride from the city centre would be around €10
           </p>
         </div>
-       
-          
-        </div>
       </div>
     </div>
-
-    <!-- <div class="soonContainer">
-    <h1>About the venue </h1>
-    <p>Our wedding is going to take place at Block 33. The time of the ceremony will be confirmed
-      and announced soon.
-      The address of the venue is: 33 [26 Octovriou], Thessaloniki, 54627
-      The building is located in the area Sfageia, which is a 15-minute car drive from the city
-      centre. There will be free parking at the venue and a taxi ride from the city centre would be
-      around €10.
+    <div  style="text-align:center; padding-bottom: 10px;">
+  <h1 style="text-align:center; "> See you there!</h1>
 
 
-      The building was built in 1907 and it was used as a tannery. It used to be a very successful
-      business, with over 150 employees and exports in Syria, Egypt, Turkey and Albania.
-      When the factories around it were closed by the government due to the high levels of pollution 
-      they produced, the building was abandoned. 
-      In the 1990’s the building got listed as part of the industrial history
-      of the city. It was used as a music venue between 1996-2007. Block 33 was created by a
-      team of young and creative people in the early 2000’s and since then it has been a very
-      popular venue for music gigs, theatre and exhibitions. We are very excited to be having our
-      wedding there!
-
-      EWSSSS
-  </p>
-  </div> -->
+    </div>
+  
   </div>
 </template>
 
@@ -74,10 +59,6 @@ export default {
   computed: {},
   modules: ["bootstrap-vue/nuxt"],
   methods: {
-    /**
-     * Called when a language button is clicked
-     * Changes the i18n context variable's locale to the one selected
-     */
   }
 };
 </script>
