@@ -23,11 +23,10 @@
 
     <div class="jumbotron" style="text-align:center; padding:0px !important;">
       <div style="text-align:center; padding: 15px;">
-        
-          <h1>How to get to Thessaloniki (SKG) by plane</h1>
+        <h1>How to get to Thessaloniki (SKG) by plane</h1>
 
         <div class="row" style="padding-top:20px">
-          <div class="col-md-3"> </div>
+          <div class="col-md-3"></div>
           <div class="col-md-3">
             <h2>From Scotland</h2>
             <p>
@@ -51,24 +50,94 @@
               Ryanair)
             </p>
           </div>
-           <div class="col-md-3"></div>
+          <div class="col-md-3"></div>
         </div>
       </div>
     </div>
-    <div style="text-align:center;">
-      <h1 style="text-align:center; ">Where to Stay</h1>
-      <p>We think that the best areas to stay in the city are: 
-        <ul style="list-style-type:none">
-        <li>City centre </li>
-        <li>Ano Poli  </li>
-        <li> 40 ekklissies </li>
-        <li>Kalamaria</li>
-        </ul>
 
-<p>The city centre would be the most convenient place to stay. A hotel or an Airbnb
-would be fine choices. The city has public buses and taxis are relatively cheap.
-</p>
+    <div class="container" style="min-height:0vh;">
+      <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-8" style="text-align:center; ">
+          <h1>Where to Stay</h1>
+          <p>We think that the best areas to stay in the city are:</p>
+          <ul style="list-style-type:none">
+            <li>City centre</li>
+            <li>Ano Poli</li>
+            <li>40 ekklissies</li>
+            <li>Kalamaria</li>
+          </ul>
+
+          <p>
+            The city centre would be the most convenient place to stay. A hotel
+            or an Airbnb would be fine choices. The city has public buses and
+            taxis are relatively cheap.
+          </p>
+        </div>
+        <div class="col-md-2"></div>
+      </div>
     </div>
+
+    <div style="background-color: #e9ecef !important; ">
+    <div class="container" style="min-height: 60vh !important">
+
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="yellow"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        
+        
+        
+
+        
+        
+        
+      </div>
+    </div>
+  </div>
   </div>
 </template>
 
