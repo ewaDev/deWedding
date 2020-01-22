@@ -2,7 +2,7 @@
   <div>
     <div class="coverImage"></div>
     <div class="text">
-      <p>Our wedding is going to take place at Block 33.</p>
+      <p style="font-family: 'Amatic SC', cursive;" >Our wedding is going to take place at Block 33.</p>
     </div>
 
     <div class="container" style="min-height:0vh;">
@@ -76,7 +76,7 @@ export default {
 
 .text {
   text-align: center;
-  font-size: 2.5rem;
-  font-family: "Josefin Slab", serif;
+  font-size: 3rem;
+  
 }
 </style>

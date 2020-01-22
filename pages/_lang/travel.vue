@@ -2,7 +2,7 @@
   <div>
     <div class="coverImageTravel"></div>
     <div class="text" style="padding-top: 0px">
-      <p>Hello and welcome to Thessaloniki!</p>
+      <p style="font-family: 'Amatic SC', cursive;" >Hello and Welcome to Thessaloniki!</p>
     </div>
 
     <div class="container" style="min-height:0vh; padding-bottom: 20px">
@@ -79,80 +79,139 @@
     </div>
 
     <div style="background-color:rgb(233,236,239) ; !important; ">
-    <div class="container" style="min-height: 0; padding-top: 25px">
-
-      <div class="row">
-        <div class="col-md-4">
-          <div class="card mb-4 shadow-sm">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Where To Eat</text></svg>
-            <div class="card-body">            
-              <div class="align-items-center">
-                <p>	Sebriko /Address: Fragkon 2, Thessaloniki 546 26 </p>
-<p>		Extravaganza / Address: Episkopou Amvrosiou 8, Thessaloniki 546 30 </p>
-<p>		Maitr kai Margarita / Address: Verias 2, Thessaloniki 546 25</p>
-<p>		Neos Galerios / Address: Apellou 3, Thessaloniki 546 22</p>
-<p>		Ergon Agora / Address: P. Mela 42, Thessaloniki 546 22</p>
-<p>		The big Kahuna / Address: Rogkoti 4, Thessaloniki 546 24</p>
-<p>		Dangara / Address: Pl. Agiou Georgiou 7, Thessaloniki 546 35 </p>
-<p>		Evora / Address: Diogenous 13, Thessaloniki 544 53</p>
-
-          
-        
+      <div class="container" style="min-height: 0; padding-top: 25px">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+              <svg
+                class="bd-placeholder-img card-img-top"
+                width="100%"
+                height="225"
+                xmlns="http://www.w3.org/2000/svg"
+                preserveAspectRatio="xMidYMid slice"
+                focusable="false"
+                role="img"
+                aria-label="Placeholder: Thumbnail"
+              >
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#55595c"></rect>
+                <text x="50%" y="50%" fill="#eceeef" dy=".3em">
+                  Where To Eat
+                </text>
+              </svg>
+              <div class="card-body">
+                <div class="align-items-center">
+                  <p>Sebriko /Address: Fragkon 2, Thessaloniki 546 26</p>
+                  <p>
+                    Extravaganza / Address: Episkopou Amvrosiou 8, Thessaloniki
+                    546 30
+                  </p>
+                  <p>
+                    Maitr kai Margarita / Address: Verias 2, Thessaloniki 546 25
+                  </p>
+                  <p>Neos Galerios / Address: Apellou 3, Thessaloniki 546 22</p>
+                  <p>Ergon Agora / Address: P. Mela 42, Thessaloniki 546 22</p>
+                  <p>
+                    The big Kahuna / Address: Rogkoti 4, Thessaloniki 546 24
+                  </p>
+                  <p>
+                    Dangara / Address: Pl. Agiou Georgiou 7, Thessaloniki 546 35
+                  </p>
+                  <p>Evora / Address: Diogenous 13, Thessaloniki 544 53</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+              <svg
+                class="bd-placeholder-img card-img-top"
+                width="100%"
+                height="225"
+                xmlns="http://www.w3.org/2000/svg"
+                preserveAspectRatio="xMidYMid slice"
+                focusable="false"
+                role="img"
+                aria-label="Placeholder: Thumbnail"
+              >
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#55595c"></rect>
+                <text x="50%" y="50%" fill="#eceeef" dy=".3em">
+                  Coffee, tea & cakes
+                </text>
+              </svg>
+              <div class="card-body">
+                <div class="align-items-center">
+                  <p>
+                    Tabya / Address: Kon/nou Melenikou 14, Thessaloniki 546 35
+                  </p>
+                  <p>To tsai / Address: Karolou Ntil 27, Thessaloniki 546 23</p>
+                  <p>
+                    Mikri Frida / Address: Achiropiitou 4, Thessaloniki 546 35
+                  </p>
+                  <p>
+                    Koubi coffee & crafts / Address: Peloponnisou 2,
+                    Thessaloniki 546 31
+                  </p>
+                  <p>Ypsilon / Address: Edessis 5, Thessaloniki 546 25</p>
+                  <p>Tom’s / Address: Tsimiski 22, Thessaloniki 546 24</p>
+                  <p>Baraka / Address: Pl. Navarinou 3, Thessaloniki 546 22</p>
+                  <p>
+                    Pastaflora Darling cafe/ Address: Zefxidos 6, Thessaloniki
+                    546 22
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+              <svg
+                class="bd-placeholder-img card-img-top"
+                width="100%"
+                height="225"
+                xmlns="http://www.w3.org/2000/svg"
+                preserveAspectRatio="xMidYMid slice"
+                focusable="false"
+                role="img"
+                aria-label="Placeholder: Thumbnail"
+              >
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#55595c"></rect>
+                <text x="50%" y="50%" fill="#eceeef" dy=".3em">
+                  Where to drink
+                </text>
+              </svg>
+              <div class="card-body">
+                <div class="align-items-center">
+                  <p>
+                    Tabya / Address: Kon/nou Melenikou 14, Thessaloniki 546 35
+                  </p>
+                  <p>Urania / Address: Paikou 4, Thessaloniki 546 25</p>
+                  <p>
+                    Aigli Yeni Hammam / Address: Agiou Nikolaou 3, Thessaloniki
+                    546 33
+                  </p>
+                  <p>
+                    Dendro sto bar/ Address: Leof. Vasileos Georgiou 25,
+                    Thessaloniki 546 40
+                  </p>
+                  <p>
+                    Epavli Marokkou / Address: Leof. Vasilissis Olgas 133,
+                    Thessaloniki 546 45
+                  </p>
+                  <p>Gorilas / Address: Verias 3, Thessaloniki 546 25</p>
+                  <p>
+                    The Hub House / Address: Katouni 30, Thessaloniki 546 25
+                  </p>
+                  <p>Pulp / Address: Al. Svolou 8, Thessaloniki 546 22</p>
+                </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="col-md-4">
-          <div class="card mb-4 shadow-sm">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Coffee, tea & cakes</text></svg>
-            <div class="card-body">
-              <div class="align-items-center">
-               
-               <p>			Tabya / Address: Kon/nou Melenikou 14, Thessaloniki 546 35 </p>
-<p>			To tsai / Address: Karolou Ntil 27, Thessaloniki 546 23 </p>
-<p>			Mikri Frida / Address: Achiropiitou 4, Thessaloniki 546 35 </p>
-<p>			Koubi coffee & crafts / Address: Peloponnisou 2, Thessaloniki 546 31 </p>
-<p>			Ypsilon / Address: Edessis 5, Thessaloniki 546 25 </p>
-<p>			Tom’s / Address: Tsimiski 22, Thessaloniki 546 24 </p>
-<p>			Baraka / Address: Pl. Navarinou 3, Thessaloniki 546 22 </p>
-<p>			Pastaflora Darling cafe/ Address: Zefxidos 6, Thessaloniki 546 22 </p>
-
-
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card mb-4 shadow-sm">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Where to drink</text></svg>
-            <div class="card-body">
-    
-              <div class="align-items-center">
-                <p>			Tabya / Address: Kon/nou Melenikou 14, Thessaloniki 546 35 </p>
-<p>			Urania / Address: Paikou 4, Thessaloniki 546 25 </p>
-<p>			Aigli Yeni Hammam / Address: Agiou Nikolaou 3, Thessaloniki 546 33 </p>
-<p>			Dendro sto bar/ Address: Leof. Vasileos Georgiou 25, Thessaloniki 546 40 </p>
-<p>			Epavli Marokkou / Address: Leof. Vasilissis Olgas 133, Thessaloniki 546 45 </p>
-<p>			Gorilas / Address: Verias 3, Thessaloniki 546 25 </p>
-<p>			The Hub House / Address: Katouni 30, Thessaloniki 546 25 </p>
-<p>			Pulp / Address: Al. Svolou 8, Thessaloniki 546 22 </p>  
-
-            
-              </div>
-            </div>
-          </div>
-        </div>
-
-        
-        
-        
-
-        
-        
-        
       </div>
     </div>
-  </div>
   </div>
 </template>
 
@@ -189,7 +248,7 @@ export default {
 
 .text {
   text-align: center;
-  font-size: 2.5rem;
-  font-family: "Josefin Slab", serif;
+  font-size: 3rem !important;
+ font-family: 'Amatic SC', cursive;
 }
 </style>
